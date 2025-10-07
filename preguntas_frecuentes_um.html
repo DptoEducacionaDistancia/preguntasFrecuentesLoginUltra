@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas Frecuentes - Universidad de Morón</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            color: #fff;
+            background: url('https://www.unimoron.edu.ar/static/images/upload/images/institucional.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            position: relative;
+        }
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 0;
+        }
+        header, main, footer {
+            position: relative;
+            z-index: 1;
+        }
+        header {
+            text-align: center;
+            padding: 30px 20px;
+        }
+        header img {
+            width: 180px;
+            max-width: 80%;
+            height: auto;
+        }
+        header h1 {
+            margin-top: 10px;
+            font-size: 1.8em;
+            font-weight: 600;
+        }
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        .content {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 800px;
+            width: 100%;
+        }
+        .content h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #005baa;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .faq-item strong {
+            display: block;
+            margin-bottom: 5px;
+            color: #005baa;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 10px;
+            background: rgba(0, 0, 0, 0.7);
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://caslan2024.unimoron.edu.ar/Css/Pic/Logos/Logo-UM.png" alt="Universidad de Morón">
+        <h1>Universidad de Morón</h1>
+    </header>
+    <main>
+        <div class="content">
+            <h2>PREGUNTAS FRECUENTES DE ALUMNOS</h2>
+            <div class="faq-item">
+                <strong>No puedo acceder a la plataforma</strong>
+                <p>Si es un problema de contraseña, los usuarios pueden recuperarla desde la página de inicio de sesión donde dice ¿Ha olvidado su contraseña?. En caso de no poder recuperar la clave, puede solicitar un cambio manual al departamento de educación a distancia.</p>
+            </div>
+            <div class="faq-item">
+                <strong>Problemas de conexión</strong>
+                <p>Es una dificultad habitual de la cual solo podemos hacer algunas recomendaciones ya que esto depende del servicio de internet de cada usuario. Se recomienda revisar la conexión a internet doméstica, usar el navegador Chrome, no tener muchos dispositivos usando la internet doméstica, y no tener muchos programas o pestañas abiertas en simultáneo.</p>
+            </div>
+            <div class="faq-item">
+                <strong>No me figura una asignatura en plataforma</strong>
+                <p>Revisar en servicio plus “aulas y horarios” si efectivamente está inscripto en la materia. En caso de no estar inscripto en servicio plus, indicar que se inscriba por ese medio o se comunique al departamento de alumnos. En el caso de figurar inscripto en servicio plus, avisar al departamento de educación a distancia para revisión de actualización de base de datos.</p>
+            </div>
+            <div class="faq-item">
+                <strong>El acceso al curso está cerrado (ícono del candado cerrado)</strong>
+                <p>Pueden surgir casos donde los docentes al iniciar la cursada se olvidan de abrir el acceso al curso para los estudiantes. Esto se soluciona comunicándose con el docente e indicándole que ponga el curso “abierto”.</p>
+            </div>
+            <div class="faq-item">
+                <strong>No funciona el micrófono o cámara en la Sala de Collaborate</strong>
+                <p>En estos casos depende del dispositivo que esté usando el usuario. Por tal motivo, podemos brindar algunas recomendaciones como por ejemplo: usar el navegador Chrome, revisar la conexión a internet, verificar si se otorgó el permiso al navegador de acceso al micrófono o cámara (permisos de privacidad). Esto último lo puede verificar el usuario haciendo clic en la barra de direcciones del navegador, donde está el ícono del candado o una cámara.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        © 1997-2025 Blackboard Inc. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
